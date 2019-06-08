@@ -5,6 +5,7 @@ permalink: /questions/html-questions/index.html
 ---
 
 * What does a `doctype` do?
+      It lets the browser know what document you are using. So for example: The html version we are using.
 * How do you serve a page with content in multiple languages?
 * What kind of things must you be wary of when design or developing for multilingual sites?
 * What are `data-` attributes good for?
