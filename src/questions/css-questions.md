@@ -61,15 +61,34 @@ Progressive enhancement: The practice of building an application for a base leve
        
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
       he box model consist of its content with a width and a height, then the padding, then the border, then the margin. naturally, if we dont specify the height or width of the content, then it is only as high and wide as the content is where the height will have some padding and the width wont have any padding.
+      
 * What does ```* { box-sizing: border-box; }``` do? What are its advantages?
+
 * What is the CSS `display` property and can you give a few examples of its use?
       none, block, inline, inline-block, flex, grid, table, 
+      
 * What's the difference between inline and inline-block?
         with inline you cant specify a width and a height and inline-block you can
+        
 * What's the difference between the "nth-of-type()" and "nth-child()" selectors?
+      one looks for the children and the other looks for a specific type
+      
 * What's the difference between a relative, fixed, absolute and statically positioned element?
+      - static positioning is the default position, usually means it will follow the normal flow of positioning items in a page.
+      - relative behaves almost like static but you can specify left, right, top, bottom, relative to its position
+      - absolute position moves an element in side some parent container it references
+      - fixed position means that it stays in the same position as you scroll down the page
+      - sticky position means as you scroll down it turns from a relative position to a fixed position.
+      
 * What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
-* Have you played around with the new CSS Flexbox or Grid specs?
+      material ui
+      bootstrap
+* Have you played around with the new CSS Flexbox or Grid specs? 
+      to a degree
 * Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
+      responsive websie simply means you style based on the width and the height of your page whereas taking the mobile-first strategy we scale upwards starting from the mobile view to the desktop view.
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
+      no
 * Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
+      when using translate, you dont want to break the flow of positioning in the page
+ 
