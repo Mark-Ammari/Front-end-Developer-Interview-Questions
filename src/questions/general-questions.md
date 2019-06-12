@@ -55,7 +55,11 @@ permalink: /questions/general-questions/index.html
       its ways to make our website more accessible to people with disabilities. aria is accessible rich internet application and its practices using attributes to give semantic meaning to our page.
       
 * Explain some of the pros and cons for CSS animations versus JavaScript animations.
-
+      CSS animations dont disrupt the normal flow of the page
+      javascript has advanced animations like bouncing and pulsating
+      with javascript you have more control with animation
+      css its small and simple.
+        
 * What does CORS stand for and what issue does it address?
       cors stand for cross origin resource sharing and it addresses who gets access to what resources. the reason why apis have cors is to prevent users from manipulating data that is not theirs. Usually when making a request you're required to use an api key in your http header in order to access and ofen times you are limited to just accessing data.
       
